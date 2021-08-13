@@ -1,5 +1,51 @@
 # GIT-helper
 
+You can download git here: http://git-scm.com/downloads
+
+Install Git with default settings.
+
+Generating a pair of ssh keys:
+
+     ssh-keygen -t rsa –C “@example.mail"
+
+The public key (id_rsa) should be sent to the owner of the repository in order to obtain work rights. Or upload to profile settings in bitbucket / github / gitlab.
+
+Username and email settings:
+
+     git config --global user.name “your name“
+
+     git config --global user.email “your email"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Убрать ненужные папки из слежения на примере node_modules:
 1. Touch .gitignore - создать, если отсутствует. 
 2. echo and >> node_modules/
